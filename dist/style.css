@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Nokia";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: 
+      url("./fonts/nokiacellphone.ttf") format("truetype");
+}
+
+.page {
+    font-family: 'Nokia', 'Courier New', Courier, monospace;
+}
+
+.phone {
+    position: relative;
+    width: max-content;
+}
+
+.phone__image {
+    display: block;
+    height:400px ;
+}
+
+.phone__buttons {
+    position: absolute;
+    inset: 0;
+    list-style: none;
+
+    
+}
+
+.phone__button {
+    position: absolute;
+
+    width: 32px;
+    height: 21px;
+
+    cursor: pointer;
+}
+
+.phone__button_key-one {
+    top: 245px;
+    left: 22px;
+}
+
+.phone__button_key-two {
+    top: 250px;
+    left: 71px;
+}
+
+.phone__button_key-three {
+    top: 245px;
+    left: 121px;
+}
+
+.phone__button_key-four {
+    top: 273px;
+    left: 23px;
+}
+
+.phone__button_key-five {
+    top: 279px;
+    left: 71px;
+}
+
+.phone__button_key-six {
+    top: 273px;
+    left: 120px;
+}
+
+.phone__button_key-seven {
+    top: 301px;
+    left: 26px;
+}
+
+.phone__button_key-eight {
+    top: 308px;
+    left: 71px;
+}
+
+.phone__button_key-nine {
+    top: 301px;
+    left: 117px;
+}
+
+.sms-value {
+    position: absolute;
+    top: 105px;
+    left: 29px;
+
+    width: 118px;
+    height: 81px;
+    
+    border-radius: 3px;
+    overflow: hidden;
+
+    background-color: #4a5d41;
+
+    z-index: 99999;
+
+}
+
+.sms-input {
+    max-width: 100%;
+    min-height: 0px;
+
+    border: none;
+
+    background-color: #4a5d41;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nokia', 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+
+    scrollbar-width: none;
+
+    cursor: not-allowed;
+}
+
+.sms-input:focus {
+    outline: none;
+}

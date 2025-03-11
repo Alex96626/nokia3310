@@ -1,0 +1,16 @@
+{
+  "name": "Nokia 3310",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shampurik",
+  "license": "Apache-2.0",
+  "description": "create a legendary phone in your browser",
+  "private": false,
+  "keywords": [
+    "vanila", "JavaScript", "Nokia 3310"
+  ],
+  "files": ["dist"] 
+}
